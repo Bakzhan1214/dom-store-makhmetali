@@ -2,11 +2,11 @@
 
 ## How to open
 
-Open `index.html` directly in a web browser. You can also open the project in Visual Studio Code and use the Live Server extension.
+I open `index.html` directly in a web browser, or I run the project in Visual Studio Code with the Live Server extension.
 
 ## What was implemented
 
-The `submit` event validates the product name, price, and quantity before adding a product to the store. The `click` event handles product actions, and event delegation lets one listener on the products table handle every increase, decrease, and delete button. `DOMContentLoaded` runs the initial setup, loads the sample products, and renders the page. The live total recalculates after every inventory change without reloading the page.
+I handle the `submit` event to validate the product fields and add valid products without reloading the page. I handle the `click` event for product actions, and I use event delegation so one listener on the products list handles every increase, decrease, and delete button. I use `DOMContentLoaded` to initialize the store, load the sample products, and render the page after its HTML has loaded. I recalculate and display the live total after each inventory change so I can see the updated value immediately.
 
 ## Screenshot
 
@@ -14,4 +14,4 @@ The `submit` event validates the product name, price, and quantity before adding
 
 ## AI Tools
 
-ChatGPT was used to assist with code structure, debugging, and explanation.
+I used ChatGPT to assist with code structure, debugging, and explanation.
